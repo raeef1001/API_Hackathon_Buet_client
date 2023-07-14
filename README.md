@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+BUET CSE Fest 2023 Hackathon - Vanguard by Team Vanguard
+As part of the "API and Cloud Services" segment of the BUET CSE FEST Hackathon, we were tasked with creating a ChatGPT powered chatbot which can take speech, text files and even images as input. Not only that, but this program can also generate illustrated stories for small children in PDF format.
+API_ENDPOINT = https://apihackathon-1qlm.onrender.com/
+How to run Vanguard:
+npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The problem : 
 
-## Available Scripts
 
-In the project directory, you can run:
+There were several tasks to be completed:
 
-### `npm start`
+Make a Chatbot which can accept speech as input and also speak the output;
+Allow the Chatbot to accept text files, images etc. as images;
+Generate a Children’s story book on Command;
+Make a file sharing system for all the generated e-books.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+What we solved:
+1. Chatbot was successfully developed
+2. Chatbot can accept speech, images and text files as input
+3. Children’s story book can be generated successfully
+4. Generated story book is available as a viewable and downloadable PDF
+5. Phases 1, 2 and 4 completely solved and Phase 3 partially solved.
+Problems:
+File sharing system could not be implemented; 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The APIs we used : 
+1. https://ocr.space/ocrapi
+2. https://openai.com/blog/openai-api
+3. https://docs.apitemplate.io/api/index.html#introduction
+4. voice to text api
+5. text to voice api
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Our Tech Stack:
+	Front-End:- React,Tailwindcss
+	Back-End:- NodeJs, express
+	Database:- mongodb
